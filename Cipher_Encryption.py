@@ -10,8 +10,6 @@ chars = list(chars)
 key=chars.copy()
 
 random.shuffle(key)#shuffles the list key
-print("chars",chars,end='')
-print("key",key,end='')
 
 #Encryption:
 
