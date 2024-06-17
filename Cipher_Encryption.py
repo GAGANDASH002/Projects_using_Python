@@ -25,7 +25,7 @@ print(f"Encrypted Message : {cipher_text}")
 
 #Decryption:
 
-cipher_text=input("Enter text to be encrypted")
+cipher_text=input("Enter text to be decrypted")
 text=""
 
 for letter in cipher_text:
