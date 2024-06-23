@@ -1,3 +1,4 @@
+
 import speech_recognition as sr 
 from requests_html import HTMLSession
 import text_to_speech
@@ -16,6 +17,8 @@ def speech_to_text():
              text_to_speech.text_to_speech("sorry")
       except sr.RequestError:
             text_to_speech.text_to_speech('No internet connect please turn on you internet')  
+
+  
 
 
 

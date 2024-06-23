@@ -1,3 +1,4 @@
+
 import pyttsx3 
 
 def text_to_speech(text):
@@ -6,4 +7,5 @@ def text_to_speech(text):
     engine.setProperty('rate','rate-70')
     engine.say(text)
     engine.runAndWait()
+
 

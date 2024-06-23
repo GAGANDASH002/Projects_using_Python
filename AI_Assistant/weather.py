@@ -1,3 +1,4 @@
+
 # https://www.google.com/search?q=waether+bhubaneswar
 # User Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 # span id = wob_tm
@@ -12,4 +13,3 @@ def weather():
     temp = r.html.find('div.display-temp',first=True).text
     desc = r.html.find('div.phrase',first=True).text
 
-    return temp+" " +desc
